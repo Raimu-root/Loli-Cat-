@@ -1,0 +1,3 @@
+await self.bot.process_commands(message)
+
+poetry add git+https://github.com/Rapptz/discord.py

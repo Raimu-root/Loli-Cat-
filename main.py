@@ -25,8 +25,8 @@ intents = discord.Intents.all()
 intents.typing = False
 intents.message_content = True
 
-token = os.environ['TOKEN']
-
+#token = os.environ['TOKEN']
+token = "OTE5MDQ2ODUyMDg5OTA1MTky.GcVtM_.vwsYAUmjTHsuFo3nixjWES3CJBfvn46sKI352k"
 bot = commands.Bot(command_prefix="xp!", intents=intents, help_command=None)
 
 for cog in INITIAL_EXTENSIONS:
